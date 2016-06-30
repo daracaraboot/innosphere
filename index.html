@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Innosphere</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<nav class="main-menu">
+						<ul>
+							<li><a href="#">Homepage</a></li>
+							<li><a href="#">Search</a></li>
+							<li><a href="#">Recent Images</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Testimonials</a></li>
+							<li><a href="#">Sponsors</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+			</nav>
+			<div class="header-social">
+				<ul>
+						<li><a href="#" class="social-btn social-btn-fb">Fb</a></li>
+						<li><a href="#" class="social-btn social-btn-in">In</a></li>
+						<li><a href="#" class="social-btn social-btn-be">Be</a></li>
+				</ul>
+			</div>
+			<div class="promo">
+				<div class="promo-title">Your beautiful handcrafted stock 
+photography marketplace.</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis tortor non ipsum condimentum molestie...</p>
+				<a href="#" class="btn btn-pink">Know more</a>
+			</div>
+		</div>
+	</header>
+	<section class="search">
+		<div class="container">
+			<a href="#">Search all galleries</a>
+			<form action="/echo" method="post">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="categories">Categories</label></td>
+                            <td><label for="license-type">License Type</label></td>
+                            <td><label for="image-size">Image Size</label></td>
+                            <td><label for="color">Color</label></td>
+                        </tr>
+                        <tr>
+                            <td><select name="categories" id="categories">
+                                        <option value="architecture">Architecture</option>
+                                        <option value="books">Books</option>
+                                        <option value="nature">Nature</option>
+                                    </select></td>
+                            <td><select name="license-type" id="license-type">
+                                        <option value="creative">Creative</option>
+                                        <option value="open-sourse">Open Sourse</option>
+                                        <option value="royalty-free">Roalty Free</option>
+                                    </select></td>
+                            <td><select name="image-size" id="image-size">
+                                        <option value="x">X</option>
+                                        <option value="xl">XL</option>
+                                        <option value="xxl">XXL</option>
+                                    </select></td>
+                            <td><input type="text" name="color" id="color" placeholder="#F6546A">
+                                    <button type="submit">Apply</button></td>
+                        </tr>
+                        <tr>
+                            <td><label for="browse">Browse</label></td>
+                            <td><label for="location">Location</label></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><select name="browse" id="browse">
+                                        <option value="most-viewed">Most Viewed</option>
+                                        <option value="popular">Popular</option>
+                                        <option value="latest">Latest</option>
+                                    </select></td>
+                            <td><select name="location" id="location">
+                                        <option value="worldwide">Worldwide</option>
+                                        <option value="your-country">Your Country</option>
+                                        <option value="your-city">Your City</option>
+                                    </select></td>
+                            <td>
+                                <span class="toggle">
+                                    <input type="radio" name="adult-content" value="yes" checked>
+                                    <input type="radio" name="adult-content" value="no">
+                                    <span class="switch"></span>
+                                </span>    
+                            </td>
+                            <td><input type="submit" value="start your search" class="btn btn-pink"></td>
+                        </tr>
+                    </tbody>    
+                </table>    
+            </form>	
+		</div>
+	</section>
+	<section class="page-description">
+		<div class="container">
+			<h2 class="page-description-title">Over 40 Million Stock Photos, Vectors, Videos, and Music Tracks</h2>
+			<p>Search for images anywhere using our award-winning iPad®, iPhone®, and Android® apps. Functional enough to use alone, beautiful enough to show off to clients.
+			</p>
+		</div>
+	</section>
+	<section class="recently-uploaded">
+		<div class="container">
+			<h2 class="recently-uploaded-title">Recently uploaded</h2>
+			<div class="recently-uploaded-images">
+				<div class="recently-uploaded-image recently-uploaded-image-1">
+					<img src="img/image-1.png" alt="image-1" width="285" height="190">
+				</div>
+				<div class="recently-uploaded-image recently-uploaded-image-2">
+					<img src="img/image-2.png" alt="image-2" width="285" height="190">
+				</div>
+				<div class="recently-uploaded-image recently-uploaded-image-3">
+					<img src="img/image-3.png" alt="image-3" width="390" height="390">
+				</div>
+				<div class="recently-uploaded-image recently-uploaded-image--4">
+					<img src="img/image-4.png" alt="image-4" width="107" height="390">
+				</div>
+				<div class="recently-uploaded-image recently-uploaded-image-5">
+					<img src="img/image-5.png" alt="image-5" width="189" height="190">
+				</div>
+				<div class="recently-uploaded-image recently-uploaded-image-6">
+					<img src="img/image-6.png" alt="image-6" width="189" height="190">
+				</div>
+			</div>
+			<a href="#" class="btn btn-pink">Load More</a>
+		</div>
+	</section>
+	<section class="about">
+		<div class="container">
+			<h2 class="about-title">About Stock Photography</h2>
+			<div class="about-headline">What is Stock Photography?</div>
+			<p>Supply of photographs, which are often licensed for specific uses. It is used to fulfill the needs of creative assignments instead of hiring a photographer, often for a lower cost. Today, stock images can be presented in searchable online databases. They can be purchased and delivered online. </p>
+			<a href="#" class="btn btn-pink">Know More</a>
+		</div>
+	</section>
+	<section class="testimonials">
+		<div class="container">
+			<h2 class="testimonials-title">Hear what our customers are saying</h2>
+			<div class="testimonials-item">
+				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula consequat velit eget iaculis. ”</p>
+				<div class="testimonils-author">Jennifer R. Rhoades, CEO, Bubblesphere</div>
+				<div class="testimonials-author-image">
+					
+				</div>
+			</div>
+			<div class="testimonials-item">
+				<p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula consequat velit eget iaculis. ”</p>
+				<div class="testimonils-author">Matthew J. Sears, Founder of Feedclub</div>
+				<div class="testimonials-author-image">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sponsors">
+		<div class="container">
+			<h2 class="sponsors-title">Our sponsors</h2>
+			<div class="sponsors-list">
+				<ul>
+					<li><a href="#">woo</a></li>
+					<li><a href="#">envato</a></li>
+					<li><a href="#">wikipedia</a></li>
+					<li><a href="#">dribbble</a></li>
+					<li><a href="#">jQuery</a></li>
+				</ul>
+			</div>
+		</div>	
+	</section>
+	<section class="our-team">
+		<div class="container">
+			<h2 class="our-team-title">Meet our team</h2>
+			<div class="our-team-item">
+				<div class="our-team-item-image">
+					<img src="img/our-team-image-1.png" alt="team-member-image" width="314" height="195">
+				</div>
+				<h3 class="our-team-member-title">Patricia Wright</h3>
+				<div class="our-team-image-caption">Lead Developer</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis. </p>
+				<div class="our-team-social-networks-list">
+					<ul>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">dribbble</a></li>
+					<li><a href="#">pinterest</a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="our-team-item">
+				<div class="our-team-item-image">
+					<img src="img/our-team-image-2.png" alt="team-member-image" width="314" height="195">
+				</div>
+				<h3 class="our-team-member-title">James C. Cotter</h3>
+				<div class="our-team-image-caption">CEO</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis. </p>
+				<div class="our-team-social-networks-list">
+					<ul>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">dribbble</a></li>
+					<li><a href="#">pinterest</a></li>
+				</ul>
+				</div>
+			</div>
+			<div class="our-team-item">
+				<div class="our-team-item-image">
+					<img src="img/our-team-image-3.png" alt="team-member-image" width="314" height="195">
+				</div>
+				<h3 class="our-team-member-title">Sarah Cole</h3>
+				<div class="our-team-image-caption">Web Designer</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et feugiat mi. Sed lacinia euismod convallis. </p>
+				<div class="our-team-social-networks-list">
+					<ul>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">dribbble</a></li>
+					<li><a href="#">pinterest</a></li>
+				</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts">
+		<div class="container">
+			<div class="map">there will be map</div>
+			<div class="contacts-container">
+				<h2 class="contacts-title">Get in touch with us</h2>
+				<form class="contacts-form" action="/echo" method="post">
+					<table>
+						<tbody>
+							<tr>
+								<td><input type="text" name="first-name" placeholder="First name"></td>
+								<td><input type="text" name="last-name" placeholder="Last name"></td>
+							</tr>
+							<tr> 
+								<td><input type="email" name="email" placeholder="Email"></td>
+								<td><input type="number" name="phone-number" placeholder="Phone number"></td>
+							</tr>
+							<tr>
+								<td>
+									<textarea name="message" placeholder="Message"></textarea>
+								</td>
+							</tr>
+							<tr> 
+								<td><input class="btn btn-pink" type="submit" name="send-message" value="Send message"></td>
+								<td></td>
+							</tr>
+						</tbody>	
+					</table>
+				</form>
+				<div class="our-address">
+					<h3 class="address-title">Our address</h3>
+					<table>
+						<tbody>
+							<tr>
+								<td class="title">Address:</td>
+								<td class="field">2945 Rinehart Road, Sunrise</td>
+							</tr>
+							<tr>
+								<td class="title">Phone:</td>
+								<td  class="field">+44 20 7946 0041 3685</td>
+							</tr>
+							<tr>
+								<td class="title">Email:</td>
+								<td  class="field">info@innosphere.com</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="footer-networks-list">
+				<ul>
+					<li><a href="#">facebook</a></li>
+					<li><a href="#">twitter</a></li>
+					<li><a href="#">linkedin</a></li>
+					<li><a href="#">vimeo</a></li>
+				</ul>
+			</div>
+			<div class="copyright">© 2015 Innosphere - All rights reserved - made by Vid Kraljić Radulović
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
